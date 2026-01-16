@@ -119,8 +119,9 @@ This project is relevant for:
 - Organizations moving from AI demos to production systems
 
 ## Author
-**Balaji Venkatesh** (India)
-Senior Analytics / Business Intelligence Engineer
-Applied AI Practioner
-📧 balaji27venkatesh@gmail.com  
-🔗 https://github.com/balaji27venkatesh-AI
+**Balaji Venkatesh** (Proud Indian)
+- Senior Analytics / Business Intelligence Engineer
+- Applied AI Practioner in making
+- 📧 balaji27venkatesh@gmail.com  
+- 🔗 https://github.com/balaji27venkatesh-AI
+
