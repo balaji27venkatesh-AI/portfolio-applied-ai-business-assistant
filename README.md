@@ -11,8 +11,6 @@ The focus is on:
 
 This mirrors how AI assistants are built and owned in production environments.
 
----
-
 ## Business Problem
 Business teams increasingly rely on documents (reports, SOPs, policies, dashboards) but struggle to:
 - Quickly extract relevant insights
@@ -20,8 +18,6 @@ Business teams increasingly rely on documents (reports, SOPs, policies, dashboar
 - Maintain consistency across answers
 
 This project simulates a **domain-aware AI assistant** that can understand business documents and provide reliable, contextual responses.
-
----
 
 ## Why This Matters
 Without properly designed AI assistants:
@@ -34,8 +30,6 @@ This project shows how to:
 - Add **evaluation and guardrails**
 - Align AI behavior with business intent
 
----
-
 ## Dataset
 **Type:** Sample business documents  
 **Location:** `/data/sample_docs`
@@ -44,8 +38,6 @@ Includes:
 - Text-based business documents
 - Structured to simulate internal company knowledge
 - Used as grounding context for the assistant
-
----
 
 ## My Approach
 
@@ -75,15 +67,11 @@ Includes:
 - High-level architecture documented in `/docs/system_design.md`
 - Treats the assistant as a **system**, not just an LLM call
 
----
-
 ## Key Outcomes
 - Designed an AI assistant aligned with business workflows
 - Introduced evaluation as a first-class concept
 - Reduced hallucination risk through structured prompting
 - Demonstrated ownership of the full AI feature lifecycle
-
----
 
 ## Tech Stack
 - **Python** – Application logic
@@ -92,9 +80,8 @@ Includes:
 - **Jupyter** – Prompt testing and iteration
 - **Evaluation Frameworks (Conceptual)** – Response quality assessment
 
----
-
 ## Repository Structure
+```
 .
 ├── app/
 │   ├── prompts/
@@ -108,8 +95,7 @@ Includes:
 ├── notebooks/
 │   └── prompt_testing.ipynb
 └── README.md
-
----
+```
 
 ## How to Run
 1. Review system design in `/docs/system_design.md`
@@ -118,16 +104,12 @@ Includes:
 4. Use notebooks to test and refine prompts
 5. Evaluate outputs using defined metrics
 
----
-
 ## What I Learned from This Project
 - How Applied AI differs from traditional ML projects
 - Why prompt design is a product decision, not just a technical one
 - How evaluation enables continuous improvement of AI systems
 - How to think beyond models and focus on user trust
 - What it means to **own AI features end-to-end**
-
----
 
 ## Intended Audience
 This project is relevant for:
@@ -136,12 +118,9 @@ This project is relevant for:
 - Product-oriented data and AI professionals
 - Organizations moving from AI demos to production systems
 
----
-
 ## Author
- 🇮🇳  **Balaji Venkatesh** 🇮🇳  
+**Balaji Venkatesh** (India)
 Senior Analytics / Business Intelligence Engineer
 Applied AI Practioner
- 🇮🇳  
 📧 balaji27venkatesh@gmail.com  
 🔗 https://github.com/balaji27venkatesh-AI
